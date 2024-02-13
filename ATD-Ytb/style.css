@@ -1,0 +1,97 @@
+* {
+    
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+
+}
+/* Códigos do topo*/
+#topo {
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    
+}
+.spctop {
+    padding-right: 25px;  
+}
+#barra {
+    width: 430px;
+    height: 40px;
+    border: solid 1px black;
+    text-align: right;
+}
+.imgtop {
+    height: 75%;    
+}
+
+/*códigos de vídeo*/
+#main {
+    margin-left: 110px;
+    width: 960px;
+}
+#tfe {
+    
+    font-weight: 600;
+    font-size: 20px;
+}
+#barinsc {
+    height: 42px;
+    display: flex;
+    gap: 12px;
+}
+#insc {
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+}
+#dio {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.td {
+    font-size: 14px;
+}
+.at {
+    margin-left: 28px;
+}
+#desc {
+    width: 510px;
+    font-size: 14px;
+    color: #515151;
+}
+/* Barra lateral */
+#lateral {
+    margin-left: 16px;
+    width: 380px;   
+}
+#lateral div {
+    width: 380px;
+    height: 90;
+    display: flex;
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+#lateral div img {
+    width: 150px;
+    height: 90px;   
+}
+#lateral div span {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#lateral div span span {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
